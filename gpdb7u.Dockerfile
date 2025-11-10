@@ -60,4 +60,5 @@ RUN set -eux; \
     mv /usr/local /usr/local.parent; \
     echo done
 
+# install java 17 for PXF?
 USER "$USER"
